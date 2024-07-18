@@ -1,0 +1,18 @@
+user_input = input("What is the category?")
+
+MPH = int(user_input)
+
+if MPH > 74 and MPH < 111:
+    print("category 1")
+    
+elif MPH > 112 and MPH < 129:
+    print("category 2")
+    
+elif MPH > 130 and MPH < 156:
+    print("category 3")
+    
+elif MPH > 157 and MPH < 175:
+    print("category 4")
+    
+elif MPH > 175:
+    print("category 5")
